@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<style>
+form {
+    border: 3px solid #f1f1f1;
+}
+select{
+ width:25%;
+ padding:12px 20px;
+  margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	}
+body {
+        background-image: url("cubes.jpg");
+} 
+	
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: %;
+    }
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 20%;
+    border-radius: 40%;
+}
+
+.container {
+    padding: 20px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+   
+    .cancelbtn {
+       width: 100%;
+    }
+}
+</style>
+<body>
+<title>reservation</title>
+
+<h1 align="center">
+<p style="color:#ff5c33;">AIRLINE RESERVATION</P>
+</h1>
+<h2 align="center">
+<p style="color:#33cc33;">Welcomes You... </P>
+</h2>
+
+
+  <div class="imgcontainer">
+    <img src="flight.png" alt="Avatar" class="avatar">
+  </div>
+  
+  <form action="direct.php" method = "post">
+  
+<select name = "choice">
+	
+	<option  value = "signin">signin</option>
+	
+	<option value="admin">admin</option>
+	
+	<option value="signup">signup</option>
+	
+</select>
+ 
+  <div class="container">
+    <button type="submit">Submit</button>
+    
+  </div>
+  </form>
+
+
+    
+<p align="right" style="color:#ff5c33;"> ©copyrights reserverd. </p>
+
+</body>
+</html>

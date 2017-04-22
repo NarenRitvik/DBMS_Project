@@ -1,0 +1,7 @@
+project airline reservation 
+  i have created my tables in sample.php
+  tables are described in the same file
+---------------------
+_----->welcome page designed and link to next page is required
+that is login page sign up page register page
+ needed to be created followed by booking page

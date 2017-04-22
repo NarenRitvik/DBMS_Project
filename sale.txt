@@ -1,0 +1,6 @@
+CREATE TABLE Reserves (
+  sid INTEGER, bid INTEGER,
+  day DATE,
+  PRIMARY KEY (sid, bid, day),
+  FOREIGN KEY (sid) REFERENCES Sailors,
+  FOREIGN KEY (bid) REFERENCES Boats);
